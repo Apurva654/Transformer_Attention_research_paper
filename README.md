@@ -7,8 +7,11 @@ multi-head attention, sinusoidal positional encoding, encoder/decoder layers, la
 
 ## Repository Layout-
 PAPER_NOTES.md    |    Reading notes: claim, method, datasets, metrics
+
 README.md         |    How to install, train, and evaluate
+
 src/              |    Transformer implementation
+
 results/          |    Training/evaluation logs and screenshots
 
 //----------------------------------------------------------------------------------------------------------------------
