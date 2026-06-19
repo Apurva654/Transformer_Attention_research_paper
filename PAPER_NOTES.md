@@ -8,7 +8,7 @@ I have choosen the below research paper for my Task 3-
 honest logs documenting the smaller dataset and reduced training budget used.]
 
 ## 1. Central Claim
-(reference taken from the intro and backgroung part of the research papaer)
+(reference taken from the intro and background part of the research papaer)
 
  The research paper "Attention Is All You Need" claims that "Transformer Model Architecture" that relies exclusively on 
  "ATTENTION MECHANISMS" rather than on recurrence (RNNs/LSTMs i.e. Recurrent Neural Network/Long Short-Term Memory) and  
