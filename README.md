@@ -2,6 +2,7 @@
 This project implements the core architecture from the research paper named- "Attention Is All You Need" in PyTorch.
 The model code tries to verify the results obtained by the above paper by implmentation  of mechanisms like attention,
 multi-head attention, sinusoidal positional encoding, encoder/decoder layers, label smoothing and beam-search evaluation.
+
 //----------------------------------------------------------------------------------------------------------------------
 
 ## Repository Layout-
