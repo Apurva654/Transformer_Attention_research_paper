@@ -19,6 +19,7 @@ by BLEU scores) but also offers significant advantages in "parallelizability" an
 
   It replaces the sequential token proccessing (used by the RNNs) with the concept of "SELF-ATTENTION" that 
 helps it surpass the  existing state of the art models.
+
 #------------------------------------------------------------------------------------------------------------------
 
 ## 2. Core Method Implemented /CORE ARCHITECTURE:-
@@ -58,7 +59,7 @@ from Figure 1 and Section 3 of the paper.
 
 ## 3. Dataset, Metric, and Baselines
 
-             ###DATASETS- 
+  ###DATASETS- 
     (refered to section 5.2 and 6)
 
  ## Primary Task (English-to-German Translation)
@@ -74,35 +75,52 @@ from Figure 1 and Section 3 of the paper.
 - Tokenization: 32,000 word-piece tokens
 - Test: newstest2014
 
-             ###EVALUATION METRIC-
+ ###EVALUATION METRIC-
 # BLEU SCORE (tokenized, newstest2014)
 
-              ###BASELINE-
+  ###BASELINE-
 # English to German (EN-DE):
 Model                 -       BLEU 
-ByteNet    -                 23.75
+
+ByteNet               -       23.75
+
 Deep-Att + PosUnk     -      24.6 
+
 GNMT + RL             -      24.6
+
 ConvS2S               -      25.16
+
 MoE (Mixture of Experts)-   26.03 
+
 Transformer (Base)   -      27.3 
+
 Transformer (Big)    -       28.4 
 
 # English to  French (EN-FR): 
 Model                 -       BLEU 
+
 GNMT + RL             -       41.16
+
 Deep-Att + PosUnk     -       39.2 
+
 ConvS2                -       40.46 
+
 MoE                   -       40.56 
+
 Transformer (Big)     -       41.0 (Paper's result )
+
 #-----------------------------------------------------------------------------------------------------------
-                       OUR IMPLEMENTATION TARGET-
+
+  OUR IMPLEMENTATION TARGET-
 
 | Item              |      Paper                  |    MY Project             |
 
 | Dataset           | WMT 2014 EN-DE (4.5M pairs) | Multi30k (29k pairs)      |
+
 | Vocabulary        | 37,000 BPE tokens (shared)  | 8,000 BPE tokens          |
+
 | Metric            | BLEU on newstest2014        | BLEU on Multi30k test set |
+
 | Target BLEU       | 27.3 (Base model)           |       8-16                |
 
 - Results are expected to be lower and not directly comparable when trained for
