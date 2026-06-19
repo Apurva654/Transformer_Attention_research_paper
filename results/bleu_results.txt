@@ -1,0 +1,33 @@
+ #My obtained BLEU Score: 8.95
+
+#Sample Translations:
+REF : Ein Mann mit einem orangefarbenen Hut, der etwas anstarrt.
+GEN : Ein Mann mit einem Hut, der ein anderer Mann in der Hand h�lt.
+
+REF : Ein Boston Terrier l�uft �ber saftig-gr�nes Gras vor einem wei�en Zaun.
+GEN : Ein schwarz-wei�er Hund rennt durch das Gras.
+
+REF : Ein M�dchen in einem Karateanzug bricht ein Brett mit einem Tritt.
+GEN : Ein kleines M�dchen mit einem M�dchen in einem rosa Kleid, das in einem Park tr�gt.
+
+REF : F�nf Leute in Winterjacken und mit Helmen stehen im Schnee mit Schneemobilen im Hintergrund.
+GEN : F�nf Personen, die im Schnee tragen, stehen im Hintergrund.
+
+REF : Leute Reparieren das Dach eines Hauses.
+GEN : Leute stehen auf einem Markt.
+
+REF : Ein hell gekleideter Mann fotografiert eine Gruppe von M�nnern in dunklen Anz�gen und mit H�ten, die um eine Frau in einem tr�gerlosen Kleid herum stehen.
+GEN : Ein Mann und eine Frau, die eine Frau und eine Frau und eine Frau in einer Menschenmenge sitzen.
+
+REF : Eine Gruppe von Menschen steht vor einem Iglu.
+GEN : Eine Gruppe von Menschen steht in einem Restaurant.
+
+REF : Ein Junge in einem roten Trikot versucht, die Home Base zu erreichen, w�hrend der Catcher im blauen Trikot versucht, ihn zu fangen.
+GEN : Ein kleiner Junge in einem blauen Hemd versucht, einen Fu�ball zu fangen.
+
+REF : Ein Typ arbeitet an einem Geb�ude.
+GEN : Ein Mann arbeitet auf einer Baustelle.
+
+REF : Ein Mann in einer Weste sitzt auf einem Stuhl und h�lt Magazine.
+GEN : Ein Mann mit Brille und Brille sitzt an einem Tisch.
+
