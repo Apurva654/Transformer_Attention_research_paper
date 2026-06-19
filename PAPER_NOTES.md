@@ -27,39 +27,39 @@ helps it surpass the  existing state of the art models.
 This project implements the Transformer encoder-decoder architecture 
 from Figure 1 and Section 3 of the paper.
 
-### ENCODER:- (6 identical layers)  
+# ENCODER:- (6 identical layers)  
     (Section 3.1)
- # Each layer has 2 sub-layers:
+ ## Each layer has 2 sub-layers:
   1. Multi-Head Self-Attention
   2. Position-wise Feed-Forward Network (FFN)
-# Every sub-layer wrapped with:
+## Every sub-layer wrapped with:
   LayerNorm (x + Sublayer(x))
 
-### DECODER:- (6 identical layers)  
+# DECODER:- (6 identical layers)  
     (Section 3.1)
-  # Each layer has 3 sub-layers:
+  ### Each layer has 3 sub-layers:
    1. Masked Multi-Head Self-Attention
    2. Multi-Head Cross-Attention over encoder output
    3. Position-wise Feed-Forward Network
-# Every sub-layer wrapped with:
+### Every sub-layer wrapped with:
   LayerNorm (x + Sublayer(x))
 
-### SCALED DOT-PRODUCT ATTENTION
+# SCALED DOT-PRODUCT ATTENTION
     (Section 3.2.1)
 
-### MULTI-HEAD ATTENTION
+# MULTI-HEAD ATTENTION
     (Section 3.2.2)
 
-### POSITION-WISE FEED-FORWARD NETWORKS
+# POSITION-WISE FEED-FORWARD NETWORKS
     (Section 3.3)
 
-### POSITIONAL ENCODING
+# POSITIONAL ENCODING
     (Section 3.5)
 #------------------------------------------------------------------------------------------------------------------
 
 ## 3. Dataset, Metric, and Baselines
 
-  ###DATASETS- 
+# DATASETS- 
     (refered to section 5.2 and 6)
 
  ## Primary Task (English-to-German Translation)
@@ -75,11 +75,11 @@ from Figure 1 and Section 3 of the paper.
 - Tokenization: 32,000 word-piece tokens
 - Test: newstest2014
 
- ###EVALUATION METRIC-
-# BLEU SCORE (tokenized, newstest2014)
+# EVALUATION METRIC-
+  BLEU SCORE (tokenized, newstest2014)
 
-  ###BASELINE-
-# English to German (EN-DE):
+  # BASELINE-
+ English to German (EN-DE):
 Model                 -       BLEU 
 
 ByteNet               -       23.75
@@ -111,7 +111,7 @@ Transformer (Big)     -       41.0 (Paper's result )
 
 #-----------------------------------------------------------------------------------------------------------
 
-  OUR IMPLEMENTATION TARGET-
+# OUR IMPLEMENTATION TARGET-
 
 | Item              |      Paper                  |    MY Project             |
 
